@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='./js/main.js'></script>
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <a href="#"> Cadastro de Alunos</a>
+        </nav>
+    </header>
+    <section id="table">
+        <form>
+            <div class="mb-3">
+                <Label for="nome">Nome</Label>
+                <input id="nome" type="text" placeholder="insira o seu nome" required>
+            </div>
+            <div class="mb-3">
+                <label for="email">Email</label>
+                <input id="email" type="email" placeholder="insira seu email" required>
+            </div>
+            <div class="mb-3">
+                <label for="telefone">Telefone</label>
+                <input id="telefone" type="number" placeholder="insira seu telefone" required>
+            </div>
+            <div class="mb-3">
+                <label for="profissão">Profissão</label>
+                <input id="profissão" type="text" placeholder="insira sua profissão aqui" required>
+            </div>
+            <button type="submit">Adicionar</button>
+            <button type="submit">Iniciar Grafico Pizza</button>
+        </form>
+        <hr>
+        <table id="myTable" border="1">
+            <tr>
+                <th>Cod</th>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>Profissão</th>
+                <th>Ação</th>
+            </tr>
+
+        </table>
+    </section>
+
+
+</body>
+
+</html>
