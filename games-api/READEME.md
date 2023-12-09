@@ -5,3 +5,7 @@
 
 # 2 adicionar um arquivo .gitignore na raiz do projeto 
 * dentro do arquivo .gitignore digite: node_modules/
+
+## Criar Fake API
+* Criar api sempre na raiz do projeto normalmente sempre na pasta Java Script 
+* npx json-server --watch database.json
