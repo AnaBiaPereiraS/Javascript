@@ -11,8 +11,12 @@
       "nome": "Far Cry 8",
       "img": "https://codetheworld.io/wp-content/uploads/2023/12/Far-Cry-4.png",
       "preco": 200
+    },
+    {
+      "nome": "The legend of Zelda 2",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 300,
+      "id": 3
     }
   ]
-  
- 
 }
