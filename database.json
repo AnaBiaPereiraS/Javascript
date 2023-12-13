@@ -13,10 +13,28 @@
       "preco": 200
     },
     {
-      "nome": "The legend of Zelda 2",
+      "nome": "The legend of Zelda",
       "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
-      "preco": 300,
-      "id": 3
+      "preco": 100,
+      "id": 4
+    },
+    {
+      "nome": "The legend of Zelda",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 100,
+      "id": 5
+    },
+    {
+      "nome": "The legend of Zelda",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 100,
+      "id": 6
+    },
+    {
+      "nome": "The legend of Zelda",
+      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+      "preco": 100,
+      "id": 7
     }
   ]
 }

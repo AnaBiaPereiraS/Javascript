@@ -1,4 +1,4 @@
-import { getAllGames, createGame, updateGame } from "./service.js";
+import { getAllGames, createGame, updateGame, deleteGame} from "./service.js";
 
 window.onload = () => {
     loadGames();
@@ -21,7 +21,7 @@ const loadGames = () => {
 document.getElementById('btnCreate')
 .addEventListener('click', ( )=> {
 
-    const jogoTeste = {
+    const jogo = {
         "nome": "The legend of Zelda",
         "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
         "preco": 100
