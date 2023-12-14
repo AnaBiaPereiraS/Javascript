@@ -5,14 +5,28 @@ window.onload = () => {
 };
 
 const loadGames = () => {
-    const dataContainer = 
-        document.getElementById('data-container');
+    const dataContainer = document.getElementById('data-container');
         getAllGames().then(resp =>{
-        resp.forEach(game => {
-            const gamesElement = 
-                document.createElement('div');
+            console.log(resp);
+            
+        resp.forEach(jogo => {
+            const gamesElement = document.createElement('div');
                 gamesElement.innerHTML = 
-`<strong>${game.nome}</strong><p>${game.preco}</p>`;
+`
+<div class="elemento"> 
+<img class="cardimg" src="${jogo.img}" alt="${jogo.nome}" >
+<hr>
+<h5 class="cardtitle"> ${jogo.nome}</h5>
+<hr>
+<p class = "cardtext"> R$ ${jogo.preco} </p>
+
+
+
+
+
+
+</div> 
+`;
              dataContainer.appendChild(gamesElement);
         });
     })

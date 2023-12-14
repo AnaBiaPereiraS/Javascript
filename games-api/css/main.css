@@ -1,0 +1,43 @@
+.fundo{
+    background-color: rgb(230, 223, 211);
+}
+
+.containerjogos {
+    display: flex;
+    flex-wrap: wrap;
+    /*Unidade de medidas para css*/
+    gap: 1rem;
+    align-items: center;
+}
+
+.elemento {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 256px;
+    height: auto;
+    margin: 5%;
+    padding:5%;
+    flex: 1;
+    flex-direction: row;
+}
+
+.cardimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    filter: drop-shadow(15px 10px 15px rgba(0, 0, 0, 0.8));
+
+}
+
+.cardtitle {
+ color:black;
+ text-align: center;
+}
+
+.cardtext {
+    color: rgb(61, 1, 1);
+    text-align: end;
+}
